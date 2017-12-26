@@ -1,0 +1,23 @@
+{
+  "name": "acadbotjs",
+  "version": "0.0.1",
+  "description": "A Js bot for monitoring Acad System and alert about any news",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "author": "Victor Balbo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.6",
+    "@types/he": "^0.5.29",
+    "@types/request-promise": "^4.1.39",
+    "blip-sdk": "^3.5.0",
+    "lime-transport-websocket": "^2.0.2",
+    "he": "^1.1.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
